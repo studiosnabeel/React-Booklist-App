@@ -1,0 +1,44 @@
+.addContainer {
+  margin: 2em 7%;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.h2 {
+  color: rgb(30, 30, 30);
+  font-weight: 400;
+  font-size: 27px;
+  margin: 6px 0;
+}
+
+input {
+  flex: 2.5;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  margin-right: 2em;
+  margin-bottom: 10px;
+}
+
+select {
+  flex: 1;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  margin-right: 2em;
+  color: #9c8c7c;
+  margin-bottom: 10px;
+}
+
+::placeholder,
+option .myDisabled {
+  color: #9c8c7c;
+}
+
+button {
+  background-color: rgb(255, 218, 148);
+  height: 44px;
+  cursor: pointer;
+}
