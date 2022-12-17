@@ -8,9 +8,9 @@ function Navbar() {
   };
 
   return (
-    <div>
+    <div className="navbar">
       <nav>
-        <ul>
+        <ul className="nav-ul">
           <li>
             <NavLink
               to="/"
@@ -21,7 +21,11 @@ function Navbar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/categories" onClick={handleChange}>
+            <NavLink
+              to="/categories"
+              onClick={handleChange}
+              className={active === 'categories' ? 'active' : ''}
+            >
               Categories
             </NavLink>
           </li>

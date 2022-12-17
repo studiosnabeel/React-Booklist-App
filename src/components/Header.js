@@ -3,9 +3,8 @@ import Navbar from './NavBar';
 
 export default function Header() {
   return (
-    <div>
-      <h1>Nabeel</h1>
-      <span>Bookstore</span>
+    <div className="header">
+      <h1>Lorem Bookstore</h1>
       <Navbar />
     </div>
   );

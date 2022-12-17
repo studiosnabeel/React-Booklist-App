@@ -1,13 +1,14 @@
 import React from 'react';
+import style from './AddBook.module.css';
 
 export default function AddBook() {
   return (
-    <div>
-      <h2>Add New Book</h2>
+    <div className={style.addContainer}>
+      <h2 className={style.h2}>Add New Book</h2>
       <form>
-        <input type="text" placeholder="Insert title..." />
+        <input type="text" placeholder="Insert title ..." />
         <select name="category">
-          <option disabled selected>
+          <option disabled selected className={style.myDisable}>
             Category
           </option>
           <option value="Action">Action</option>
