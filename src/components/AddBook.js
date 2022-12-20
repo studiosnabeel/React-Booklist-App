@@ -1,22 +1,12 @@
-import React from 'react';
-import style from './AddBook.module.css';
+const AddBook = () => (
+  <div className="form">
+    <h3 className="add-title">ADD NEW BOOK</h3>
+    <form>
+      <input type="text" placeholder="Book Title" />
+      <input type="text" name="author" placeholder="Author" />
+      <button type="submit"> Add Book</button>
+    </form>
+  </div>
+);
 
-export default function AddBook() {
-  return (
-    <div className={style.addContainer}>
-      <h2 className={style.h2}>Add New Book</h2>
-      <form>
-        <input type="text" placeholder="Insert title ..." />
-        <select name="category">
-          <option disabled selected className={style.myDisable}>
-            Category
-          </option>
-          <option value="Action">Action</option>
-          <option value="Science Fiction">Science Fiction</option>
-          <option value="Economy">Economy</option>
-        </select>
-        <button type="submit">Add Book</button>
-      </form>
-    </div>
-  );
-}
+export default AddBook;
