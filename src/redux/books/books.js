@@ -1,4 +1,4 @@
-const ADD_BOOK = 'book-store/books/ADD_BOOk';
+const ADD_BOOK = 'book-store/books/ADD_BOOK';
 const REMOVE_BOOK = 'book-store/book/REMOVE_BOOK';
 
 const books = [];
