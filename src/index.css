@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,300;1,400;1,700&display=swap');
 
 * {
-  border: 0;
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
   color: var(--blue);
@@ -22,41 +19,4 @@ body {
   --midgrey: rgb(102, 102, 102);
   --darkgrey: rgb(23, 23, 23);
   --blue: rgb(17, 58, 124);
-}
-
-/* Header Css */
-
-.header {
-  width: 100%;
-  height: 100px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: var(--blue);
-  flex-wrap: wrap;
-}
-
-h1 {
-  font-size: 34px;
-  font-weight: 700;
-  color: var(--darkorange);
-}
-
-.nav-ul {
-  display: flex;
-  list-style: none;
-  gap: 20px;
-  margin: 10px;
-}
-
-.navbar li a {
-  color: var(--darkorange);
-  text-decoration: none;
-}
-
-/* book section css */
-
-.book-folder {
-  display: flex;
-  justify-content: center;
 }
