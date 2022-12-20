@@ -11,6 +11,9 @@ const Book = ({ book }) => {
           <button type="button" className="bookBtn">
             Comments
           </button>
+          <button type="button" className="bookBtn">
+            Remove
+          </button>
           <button type="button" className="EditBtn">
             Edit
           </button>
