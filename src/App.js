@@ -1,7 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
+
 import Navigate from './components/Navigate';
-import Home from './pages/Home';
 import Categories from './pages/Categories';
+import Home from './pages/Home';
 
 const App = () => (
   <>
