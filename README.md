@@ -35,11 +35,12 @@
 
 # 📖 Book Store with React<a name="about-project"></a>
 
-> The Book Store App is designed to help users manage books. The app is designed primarily using React.The application is carried out as part of a test to see how well the React tutorial has been understood.
+> Book Store - It is a Store App where you can add, remove, edit your books or read them. The app is designed primarily using React and Redux.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 - React
+- Redux
 - JSX
 - ES6
 - Webpack
@@ -53,6 +54,7 @@
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://redux.js.org//">React.js</a></li>
   </ul>
 </details>
 
@@ -60,10 +62,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **Managing Books**
-- **Routing on SPA**
+- **You can add your book to this website**
+- **You can see progress of your reading**
+- **You can edit or remove your book**
 
 <p align="right">[<a href="#readme-top">Back to Top</a>]</p>
 
