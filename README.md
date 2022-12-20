@@ -158,6 +158,14 @@ npm run deploy
 - LinkedIn: [@NabeelAKbar](https://www.linkedin.com/in/nabeel-akbar-7a474924a/)
 <p align="right">[<a href="#readme-top">Back to Top</a>]</p>
 
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[Deploying website]**
+
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
