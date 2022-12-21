@@ -41,6 +41,13 @@ const AddBook = () => {
           onChange={(e) => inputValue(e)}
           required
         />
+        <input
+          type="text"
+          name="category"
+          placeholder="Category"
+          onChange={(e) => inputValue(e)}
+          required
+        />
         <button type="submit">Add Book</button>
       </form>
     </div>
