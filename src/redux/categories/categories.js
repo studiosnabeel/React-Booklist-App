@@ -1,4 +1,4 @@
-const STATUS_CHECKER = 'bookstore/books/STATUS_CHECKER';
+const STATUS_CHECKER = 'booklist/books/STATUS_CHECKER';
 
 const categories = [];
 
