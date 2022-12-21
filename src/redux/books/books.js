@@ -32,7 +32,7 @@ export const removeBook = createAsyncThunk(
     } catch (error) {
       throw new Error(error);
     }
-  }
+  },
 );
 
 const bookSlice = createSlice({
