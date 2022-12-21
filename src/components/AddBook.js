@@ -18,8 +18,8 @@ const AddBook = () => {
   };
 
   return (
-    <div className="form">
-      <h3 className="add-title">ADD NEW BOOK</h3>
+    <div className="form-container">
+      <h3 className="add-book-title">ADD NEW BOOK</h3>
       <form
         action="/action_page.php"
         onSubmit={(e) => {
@@ -29,8 +29,8 @@ const AddBook = () => {
         }}
       >
         <input
-          name="title"
           type="text"
+          name="title"
           placeholder="Book Title"
           onChange={(e) => inputValue(e)}
           required
@@ -42,9 +42,10 @@ const AddBook = () => {
           onChange={(e) => inputValue(e)}
           required
         />
-        <button type="submit"> Add Book</button>
+        <button type="submit">Add Book</button>
       </form>
     </div>
   );
 };
+
 export default AddBook;
