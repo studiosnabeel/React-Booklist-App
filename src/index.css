@@ -66,8 +66,131 @@ body {
   color: #0290ff;
 }
 
-/* CSS for Books */
+/* Books section CSS */
 
 .app-container {
+  background-color: #fafafa;
+  padding: 4%;
+}
+
+.books-container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #e8e8e8;
+  padding: 4%;
+  background-color: white;
+}
+
+.book-buttons-container {
+  align-items: center;
+  margin-top: 1.313rem;
+}
+
+.percent {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.completed {
+  margin-left: 18px;
+}
+
+.chapter {
+  margin-top: 0.438rem;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  letter-spacing: -0.4px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+
+.book-category {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #888;
+}
+
+.book-name {
+  margin: 0.188rem 0;
+  font-size: 1.375rem;
+  letter-spacing: -0.2px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+}
+
+.book-author {
+  color: #4386bf;
+  font-size: 0.875rem;
+  font-weight: 300;
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+.book-button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #4386bf;
+}
+
+.book-button:nth-child(2) {
+  margin: 0 0.5rem;
+  cursor: pointer;
+  padding: 0.3rem 0.5rem;
+  border-left: 2px solid #e8e8e8;
+  border-right: 2px solid #e8e8e8;
+}
+
+.progress-container {
+  display: flex;
+}
+
+.update-progress-button {
+  cursor: pointer;
+  border: none;
+  background-color: #0290ff;
+  border-radius: 3px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  color: #fff;
+  text-transform: uppercase;
+  width: 220px;
+  height: 45px;
+}
+
+.chapter-container {
+  flex-direction: column;
+}
+
+.divider {
+  width: 0.125rem;
+  height: 4.375rem;
+  margin: 0 3.688rem 0 4.938rem;
+  background-color: #e8e8e8;
+}
+
+.circular-progress-bar {
+  border-radius: 50%;
+  width: 4.25rem;
+  height: 4.25rem;
+  border: 5px solid #307bbe;
+  border-left-color: #e8e8e8;
+  transform: rotate(45deg);
+}
+
+.current-chapter {
+  color: #12121250;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 0.875rem;
+}
+
+.book-info {
+  min-width: 250px;
 }

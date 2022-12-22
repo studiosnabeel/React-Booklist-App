@@ -32,13 +32,17 @@ const Book = ({
       <div className="progress-container">
         <div className="circular-progress-bar" />
         <div className="completed">
-          <p>0%</p>
+          <p className="percent">65%</p>
           <p>Completed</p>
         </div>
-        <div className="current-chapter">Chapter 0</div>
-        <button type="button" className="update-progress-button">
-          Update Progress
-        </button>
+        <div className="divider" />
+        <div className="chapter-container">
+          <div className="current-chapter">Current Chapter</div>
+          <div className="chapter"> Chapter 15</div>
+          <button type="button" className="update-progress-button">
+            Update Progress
+          </button>
+        </div>
       </div>
     </div>
   );
