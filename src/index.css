@@ -1,22 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,300;1,400;1,700&display=swap');
-
-* {
-  box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
-  color: var(--blue);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;500;700&display=swap');
 
 body {
-  background-color: var(--lightgrey);
+  box-sizing: border-box;
+  padding: 4%;
+  background-color: #f3f4f8;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
-:root {
-  --teal: teal;
-  --orange: rgb(253, 203, 110);
-  --darkorange: rgb(255, 171, 15);
-  --lightgrey: rgb(164, 164, 164);
-  --white: rgb(255, 255, 255);
-  --midgrey: rgb(102, 102, 102);
-  --darkgrey: rgb(23, 23, 23);
-  --blue: rgb(17, 58, 124);
+/* CSS for Header */
+
+#root {
+  background-color: #feffff;
+}
+
+.head {
+  display: flex;
+  padding: 24px 4%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.head-nav {
+  display: flex;
+  align-items: center;
+}
+
+.head-ul {
+  display: flex;
+  gap: 26px;
+}
+
+.head-li {
+  list-style: none;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #0290ff;
+}
+
+.head-a {
+  text-decoration: none;
+  font-size: 0.813rem;
+  letter-spacing: 1.9px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.light-a {
+  color: #12121250;
+}
+
+.nav-a {
+  text-decoration: none;
+  font-size: 0.813rem;
+  letter-spacing: 1.9px;
+}
+
+.user-icon {
+  color: #0290ff;
+}
+
+/* CSS for Books */
+
+.app-container {
+  display: flex;
 }
